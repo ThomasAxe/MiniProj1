@@ -1,19 +1,16 @@
-<!-- src/components/Footer.vue -->
-
 <template>
   <footer class="footer">
-    <p>Conecte-se comigo nas redes sociais:</p>
+    <p>Para entrar em contacto comigo:</p>
     <div class="social-icons">
-      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-        <img src="" alt="Facebook" />
+      <a href="https://www.instagram.com/tomas.m24" target="_blank" aria-label="Instagram">
+        <img src="@/assets/Insta.png" alt="Instagram" />
       </a>
-      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-        <img src="" alt="Twitter" />
+      <a href="https://github.com/ThomasAxe" target="_blank" aria-label="GitHub">
+        <img src="@/assets/Git.png" alt="GitHub" />
       </a>
-      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-        <img src="" alt="LinkedIn" />
+      <a href="https://www.linkedin.com/in/tom%C3%A1s-machado-48284925b/" target="_blank" aria-label="LinkedIn">
+        <img src="@/assets/LinkedIn.png" alt="LinkedIn" />
       </a>
-      <!-- Adicione outros ícones conforme necessário -->
     </div>
   </footer>
 </template>
@@ -26,10 +23,16 @@ export default {
 
 <style scoped>
 .footer {
-  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #333;
   color: white;
   text-align: center;
+  padding: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+  z-index: 10;
 }
 
 .social-icons a {

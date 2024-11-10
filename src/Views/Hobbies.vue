@@ -2,9 +2,10 @@
 
 <template>
     <div class="section">
-      <h1>Hobbies</h1>
+      <h2 style="text-align: center;">Hobbies</h2>
+      <br>
       <p>
-        Nos meus tempos livres, gosto de viajar, ler livros de tecnologia, jogar videogames e aprender novas habilidades de programação. Estou sempre à procura de novos desafios e experiências.
+        Nos meus tempos livres, gosto de jogar, conviver com amigos, viajar e manter-me a par de assuntos atuais. Interesso-me também por investigar a área da economia e gestão empresarial.
       </p>
     </div>
   </template>
@@ -18,7 +19,6 @@
   <style scoped>
   .section {
     padding: 20px;
-    background-color: #f4f4f4;
     margin-bottom: 20px;
   }
   </style>

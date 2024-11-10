@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'; // Importações para Vue 3
+import { createRouter, createWebHistory } from 'vue-router'; 
 import QuemSouEu from './Views/QuemSouEu.vue';
 import OQueFaco from './Views/OQueFaco.vue';
 import Hobbies from './Views/Hobbies.vue';
@@ -11,7 +11,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),  // Usando o método correto para Vue 3
+  history: createWebHistory(),
   routes
 });
 

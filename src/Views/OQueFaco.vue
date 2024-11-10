@@ -2,9 +2,10 @@
 
 <template>
     <div class="section">
-      <h1>O que faço?</h1>
+      <h2 style="text-align: center;">O que faço?</h2>
+      <br>
       <p>
-        Sou desenvolvedor front-end com experiência em Vue.js, HTML, CSS e JavaScript. Gosto de criar interfaces limpas e funcionais, buscando sempre a melhor experiência para o usuário.
+        Sou desenvolvedor web e alguém com conhecimentos na área da ciber segurança com experiência em Vue.js, HTML, CSS, JavaScript, PHP, Laravel, C#, Asp.Net, Linux entre outras linguagens, sendo estas a predominantes. Gosto também de fazer investimentos e ajudar amigos com a gestão das suas empresas.
       </p>
     </div>
   </template>
@@ -18,7 +19,6 @@
   <style scoped>
   .section {
     padding: 20px;
-    background-color: #f4f4f4;
     margin-bottom: 20px;
   }
   </style>
