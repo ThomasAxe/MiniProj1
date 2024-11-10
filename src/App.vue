@@ -1,26 +1,60 @@
+<!-- src/App.vue -->
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <header>
+      <h1>Bem-vindo ao Meu Currículo!</h1>
+      <nav>
+        <router-link to="/quem-sou-eu">Quem Sou Eu</router-link> |
+        <router-link to="/o-que-faco">O que faço</router-link> |
+        <router-link to="/hobbies">Hobbies</router-link>
+      </nav>
+    </header>
+
+    <router-view></router-view> <!-- Exibe o conteúdo das páginas conforme a navegação -->
+
+    <Footer /> <!-- Rodapé com ícones de redes sociais -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/Footer.vue'; // Importando o rodapé
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Footer, // Registrando o componente Footer
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+header {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+router-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+router-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: white;
 }
 </style>
